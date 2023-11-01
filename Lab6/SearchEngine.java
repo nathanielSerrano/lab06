@@ -45,6 +45,8 @@ public class SearchEngine {
                 //WRITE HERE
                 //////////////////////////
                 
+                
+                //Author - James Libby
                 Double tfvalue = TFValues.get(songTitle).get(queryWord);
                 Double idfvalue = IDFValues.get(queryWord);
                 score += tfvalue*idfvalue;               
